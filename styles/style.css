@@ -1,0 +1,88 @@
+header{
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-column-gap: 10px;
+}
+.cabecera{
+    line-height: 24px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+.cabecera:hover{
+    text-decoration: underline;
+}
+
+#sobre{
+    grid-area: 1/1/2/2;
+}
+
+#tienda{
+    grid-area: 1/2/2/3;
+}
+#gmail{
+    grid-area: 1/11/2/12;
+}
+#imag{
+    grid-area: 1/12/2/13;
+}
+#ic1{
+    grid-area: 1/13/2/14;
+}
+#ic2{
+    grid-area: 1/14/2/15;
+}
+
+img{
+    display:block;
+    margin: auto;
+    position: relative;
+    top:15%;
+}
+main{
+    text-align: center;
+    height:80%;
+}
+#buscador{
+    display:block;
+    margin: auto;
+    width: 560px;
+    height: 50px;
+    position: relative;
+    top:110px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+}
+.boton1{
+    position: relative;
+    top:120px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    height: 36px;
+}
+.boton1:hover{
+    border-color: rgb(148, 143, 143);
+}
+
+#idiomas{
+    position: relative;
+    top: 120px;
+    line-height: 28px;
+    font-size: small;
+    font-family: arial,sans-serif;
+}
+
+.abajo{
+    background-color: #f2f2f2;
+}
+.españa{
+    color:rgba(0,0,0,.54);
+    font-size: 15px;
+    font-family: arial,sans-serif;
+}
+
+
+
