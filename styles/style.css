@@ -76,12 +76,34 @@ main{
 }
 
 .abajo{
+    position: relative;
+    top: 15px;
+
     background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
 }
 .españa{
     color:rgba(0,0,0,.54);
     font-size: 15px;
     font-family: arial,sans-serif;
+}
+span:hover{
+    text-decoration: underline;
+}
+.barra1{
+    color:rgba(0,0,0,.54);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-end;
+}
+#config{
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+.textoBarra1:hover{
+    text-decoration: underline;
 }
 
 
